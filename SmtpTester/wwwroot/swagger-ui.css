@@ -1,0 +1,61 @@
+﻿h2.title {
+    color: #98002e !important;
+    font-size: 3rem !important;
+}
+
+a[href="/swagger/v1/swagger.json"] {
+    display: none;
+}
+
+small.version-stamp {
+    background-color: #218f8b !important;
+}
+
+div.opblock-post {
+    border-color: #218f8b !important;
+    background-color: #218f8b20 !important;
+}
+
+span.opblock-summary-method {
+    background-color: #218f8b !important;
+    color: #ffffff !important;
+}
+
+div.topbar {
+    display: none;
+}
+
+
+div.topbar-wrapper label.select-label span {
+    visibility: hidden;
+    position: relative;
+}
+
+    div.topbar-wrapper label.select-label span:after {
+        visibility: visible;
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin-right: 1rem;
+        color: #000000;
+        content: "Version";
+    }
+
+div.opblock-description div.renderedMarkdown p {
+    white-space: pre-wrap;
+}
+
+
+div.description div.renderedMarkdown p {
+    white-space: pre-wrap;
+    font-size: 1.2rem;
+}
+
+div.scheme-container {
+    display: none;
+}
+
+
+h2.title span small {
+    display: none !important;
+}
